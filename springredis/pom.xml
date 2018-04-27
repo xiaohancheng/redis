@@ -20,12 +20,14 @@
   </properties>
 
   <dependencies>
+    <!--单元测试-->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
+    <!--sprring 依赖开始-->
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-core</artifactId>
@@ -111,6 +113,21 @@
       <artifactId>spring-expression</artifactId>
       <version>4.3.14.RELEASE</version>
     </dependency>
+    <!--spring依赖结束-->
+
+    <!--redis依赖开始-->
+    <dependency>
+      <groupId>org.springframework.data</groupId>
+      <artifactId>spring-data-redis</artifactId>
+      <version>1.8.0.RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>redis.clients</groupId>
+      <artifactId>jedis</artifactId>
+      <version>2.9.0</version>
+    </dependency>
+    <!--redis依赖结束-->
+
   </dependencies>
 
   <build>
